@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Monitoramento de Tempo - Frontend Mentor</title>
+    <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+<body>
+    <main class="main">
+        <section class="info">
+            <article class="user">
+                <img src="./src/images/image-jeremy.png" alt="Jeremy">
+                <div>
+                    <span>Report for</span>
+                    <h1>Jeremy <br> Robson</h1>
+                </div>
+            </article>
+            <article class="selection">
+                <div>
+                    <label class="daily-label" for="daily">Daily</label>
+                    <input type="radio" name="option[365]" id="daily">
+                </div>
+                <div>
+                    <label class="weekly-label" for="weekly">Weekly</label>
+                    <input type="radio" name="option[365]" id="weekly">
+                </div>
+                <div>
+                    <label class="monthly-label" for="monthly">Monthly</label>
+                    <input type="radio" name="option[365]" id="monthly">
+                </div>
+            </article>
+        </section>
+        <section class="activities">
+            <article class="work">
+                <div class="description">
+                    <h2>Work</h2>
+                    <a href=""><img src="./src/images/icon-ellipsis.svg" alt="Ellipsis"></a>
+                </div>
+                <div>
+                    <h1 class="selecionado weekly">32hrs</h1>
+                    <h1 class="daily">8hrs</h1>
+                    <h1 class="monthly">128hrs</h1>
+                    <div class="history">
+                        <span class="selecionado weekly">Last week - 36hrs</span>
+                        <span class="daily">Yesterday - 6hrs</span>
+                        <span class="monthly">Last month - 130hrs</span>
+                    </div>
+                </div>
+            </article>
+            <article class="play">
+                <div class="description">
+                    <h2>Play</h2>
+                    <a href=""><img src="./src/images/icon-ellipsis.svg" alt="Ellipsis"></a>
+                </div>
+                <div>
+                    <h1 class="selecionado weekly">10hrs</h1>
+                    <h1 class="daily">2hrs</h1>
+                    <h1 class="monthly">30hrs</h1>
+                    <div class="history">
+                        <span class="selecionado weekly">Last week - 8hrs</span>
+                        <span class="daily">Yesterday - 1hr</span>
+                        <span class="monthly">Last month - 40hrs</span>
+                    </div>
+                </div>
+            </article>
+            <article class="study">
+                <div class="description">
+                    <h2>Study</h2>
+                    <a href=""><img src="./src/images/icon-ellipsis.svg" alt="Ellipsis"></a>
+                </div>
+                <div>
+                    <h1 class="selecionado weekly">4hrs</h1>
+                    <h1 class="daily">0.5hrs</h1>
+                    <h1 class="monthly">10hrs</h1>
+                    <div class="history">
+                        <span class="selecionado weekly">Last week - 7hrs</span>
+                        <span class="daily">Yesterday - 1hr</span>
+                        <span class="monthly">Last month - 9hrs</span>
+                    </div>
+                </div>
+            </article>
+            <article class="exercise">
+                <div class="description">
+                    <h2>Exercise</h2>
+                    <a href=""><img src="./src/images/icon-ellipsis.svg" alt="Ellipsis"></a>
+                </div>
+                <div>
+                    <h1 class="selecionado weekly">4hrs</h1>
+                    <h1 class="daily">1hr</h1>
+                    <h1 class="monthly">20hrs</h1>
+                    <div class="history">
+                        <span class="selecionado weekly">Last week - 5hrs</span>
+                        <span class="daily">Yesterday - 2hrs</span>
+                        <span class="monthly">Last month - 20hrs</span>
+                    </div>
+                </div>
+            </article>
+            <article class="social">
+                <div class="description">
+                    <h2>Social</h2>
+                    <a href=""><img src="./src/images/icon-ellipsis.svg" alt="Ellipsis"></a>
+                </div>
+                <div>
+                    <h1 class="selecionado weekly">5hrs</h1>
+                    <h1 class="daily">1hr</h1>
+                    <h1 class="monthly">30hrs</h1>
+                    <div class="history">
+                        <span class="selecionado weekly">Last week - 10hrs</span>
+                        <span class="daily">Yesterday - 2hrs</span>
+                        <span class="monthly">Last month - 60hrs</span>
+                    </div>
+                </div>
+            </article>
+            <article class="self-care">
+                <div class="description">
+                    <h2>Self Care</h2>
+                    <a href=""><img src="./src/images/icon-ellipsis.svg" alt="Ellipsis"></a>
+                </div>
+                <div>
+                    <h1 class="selecionado weekly">2hrs</h1>
+                    <h1 class="daily">0.5hr</h1>
+                    <h1 class="monthly">10hrs</h1>
+                    <div class="history">
+                        <span class="selecionado weekly">Last week - 2hrs</span>
+                        <span class="daily">Yesterday - 0.5hrs</span>
+                        <span class="monthly">Last month - 10hrs</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>

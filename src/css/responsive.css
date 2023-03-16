@@ -1,0 +1,115 @@
+@media (min-width: 500px) and (max-width: 900px) {
+    body {
+        height: 100%;
+        padding: 10%;
+    }
+    
+    .main {
+        flex-direction: column;
+        gap: 3.1rem;
+    }
+
+    .activities {
+        gap: 3.1rem;
+    }
+
+    .activities .description {
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        height: 100%;
+        padding: 5%;
+    }
+
+    .main {
+        flex-direction: column;
+        gap: 3.1rem;
+    }
+
+    .main .user {
+        display: flex;
+        gap: 0.6rem;
+        padding: 1.25rem;
+        align-items: center;
+    }
+
+    .main .user img {
+        margin-bottom: 0px;
+    }
+
+    .main .selection {
+        flex-direction: row;
+        gap: 0;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .main .selection div {
+        text-align: center;
+    }
+
+    .user br {
+        display: none;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .activities {
+        grid-template-columns: 1fr;
+        gap: 3.1rem;
+    }
+
+    .activities article div:last-child {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .activities article h1 {
+        margin-bottom: 0;
+    }
+
+    .activities .history span {
+        font-size: 0.8rem;
+    }
+
+    .activities article::before {
+        top: -20%;
+        background-size: 10%;
+    }
+
+    .activities .work::before {
+        background: hsl(15, 100%, 70%) url(../images/icon-work.svg) 80% -10% no-repeat;
+        background-size: 15%;
+    }
+    
+    .activities .play::before {
+        background: hsl(195, 74%, 62%) url(../images/icon-play.svg) 80% -10% no-repeat;
+        background-size: 15%;
+    }
+    
+    .activities .study::before {
+        background: hsl(348, 100%, 68%) url(../images/icon-study.svg) 80% -10% no-repeat;
+        background-size: 15%;
+    }
+    
+    .activities .exercise::before {
+        background: hsl(145, 58%, 55%) url(../images/icon-exercise.svg) 80% top no-repeat;
+        background-size: 20%;
+    }
+    
+    .activities .social::before {
+        background: hsl(264, 64%, 52%) url(../images/icon-social.svg) 80% -10% no-repeat;
+        background-size: 15%;
+    }
+    
+    .activities .self-care::before {
+        background: hsl(43, 84%, 65%) url(../images/icon-self-care.svg) 80% -10% no-repeat;
+        background-size: 15%;
+    }
+}
